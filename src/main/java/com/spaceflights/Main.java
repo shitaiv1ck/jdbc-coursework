@@ -70,7 +70,7 @@ public class Main {
             case 7 -> handleTest(action);
             case 8 -> handleResult(action);
             case 9 -> handleBag(action);
-            default -> System.out.println("⚠️ Неверный номер таблицы");
+            default -> System.out.println("Неверный номер таблицы");
         }
     }
 
